@@ -36,7 +36,7 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
-  sizer: 
+  sizer: ^2.0.15
   pin_code_fields:
 
 dev_dependencies:
@@ -64,6 +64,7 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
     - assets/images/
+    - assets/font/
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
@@ -80,13 +81,13 @@ flutter:
   fonts:
     - family: Poppins
       fonts:
-        - asset: assets/fonts/Poppins-Bold.ttf
+        - asset: assets/font/Poppins-Bold.ttf
           # weight: 900
-        - asset: assets/fonts/Poppins-Semibold.ttf
+        - asset: assets/font/Poppins-Semibold.ttf
           # weight: 700
-        - asset: assets/fonts/Poppins-Medium.ttf
+        - asset: assets/font/Poppins-Medium.ttf
           # weight: 500
-        - asset: assets/fonts/Poppins-Regular.ttf      
+        - asset: assets/font/Poppins-Regular.ttf      
   #       - asset: fonts/Schyler-Italic.ttf
   #         style: italic
   #   - family: Trajan Pro
