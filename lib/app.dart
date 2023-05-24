@@ -1,4 +1,4 @@
-import 'package:datin_app/screens/first_screen.dart';
+import 'package:datin_app/screens/welcome_screen/first_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:sizer/sizer.dart';
 
