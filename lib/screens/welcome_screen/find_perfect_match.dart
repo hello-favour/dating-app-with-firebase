@@ -1,12 +1,12 @@
 import 'package:datin_app/constants/image_path.dart';
-import 'package:datin_app/screens/welcome_screen/make_friends_screen.dart';
+import 'package:datin_app/screens/authentication/sign_in_screen.dart';
 import 'package:datin_app/theme/app_colors.dart';
 import 'package:datin_app/widgets/button.dart';
 import 'package:flutter/material.dart';
 import 'package:sizer/sizer.dart';
 
-class FirstScreen extends StatelessWidget {
-  const FirstScreen({super.key});
+class FindPerfectMatchScreen extends StatelessWidget {
+  const FindPerfectMatchScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -73,14 +73,14 @@ class FirstScreen extends StatelessWidget {
               ),
               SizedBox(height: size.height * 0.03),
               AppButton(
+                color: AppColors.primaryColor,
+                text: "Continue",
                 onTap: () {
                   Navigator.push(
                     context,
-                    MaterialPageRoute(
-                      builder: (context) {
-                        return const MakeFriendsScreen();
-                      },
-                    ),
+                    MaterialPageRoute(builder: (context) {
+                      return const SignInScreen();
+                    }),
                   );
                 },
               ),
